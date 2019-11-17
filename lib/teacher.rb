@@ -6,5 +6,7 @@ class Teacher < User
   def teach
     binding.pry
     KNOWLEDGE[rand 0..KNOWLEDGE.count-1]
+    # alt KNOWLEDGE.sample
+    # alt KNOWLEDGE[rand]
   end
 end
